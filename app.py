@@ -4,7 +4,7 @@ import random
 from datetime import datetime
 
 # --- 設定網頁標題 ---
-st.set_page_config(page_title="F的礦圖鑑", page_icon="💎")
+st.set_page_config(page_title="F礦礦圖鑑", page_icon="💎")
 
 # --- 讀取資料函數 (維持不變) ---
 # 請將下方的連結換成你 Google Sheet "發布到網路" 的 CSV 連結
@@ -25,7 +25,7 @@ def load_data():
 df = load_data()
 
 # --- 手機版面設計 ---
-st.title("💎 F的礦圖鑑")
+st.title("💎 F礦礦圖鑑")
 
 # 檢查資料是否載入成功
 if df.empty:
